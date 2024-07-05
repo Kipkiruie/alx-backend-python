@@ -1,9 +1,18 @@
 #!/usr/bin/env python3
-"""Write a type-annotated function add that takes a float a and a
-float b as arguments and returns their sum as a float.
-"""
+'''
+Module contains a function that adds two numbers
+'''
 
 
 def add(a: float, b: float) -> float:
-    """Add two floats"""
-    return (a + b)
+    '''Adds a two numbers and returns the sum.
+
+    Args:
+        a (int): First integer
+        b (int): Second integer
+
+    Returns:
+        int: The sum of the two numbers
+    '''
+
+    return a + b
